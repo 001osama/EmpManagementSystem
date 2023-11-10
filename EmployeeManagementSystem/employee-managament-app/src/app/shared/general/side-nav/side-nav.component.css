@@ -1,0 +1,26 @@
+.sidebar{
+    height: 100%;
+    background-color: var(--theme-bg-gray);
+}
+
+.sidebar .logo{
+    background-color: var(--theme-bg-dark);
+    color: var(--theme-text-focus);
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    background-color: var(--theme-bg-gray);
+    color: var(--theme-text-heading);
+}
+
+.sidebar a:hover{
+    background-color: var(--theme-bg-dark);
+    color: var(--theme-text-focus);
+}
+
+.sidebar a.active {
+    background-color: var(--theme-bg-dark);
+    color: var(--theme-text-focus);
+}

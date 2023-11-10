@@ -1,0 +1,10 @@
+.search-box{
+    background-color: var(--theme-bg-gray);
+    border-radius: 8px;
+    color: var(--theme-text-heading);
+}
+
+.search-box .details{
+    background-color: var(--theme-bg-light);
+    border-radius: 4px;
+}

@@ -1,0 +1,61 @@
+
+<section>
+
+    <h3 class="my-3 d-flex justify-content-between">
+        <strong>Payroll Details</strong>
+        <button class="btn btn-outline-dark" (click)="back()">
+            BACK
+        </button>
+    </h3>
+
+    <div class="my-3">
+        <h5 class="display-6">{{details?.firstName}} {{details?.lastName}}</h5>
+        <h5 class="display-6">Dept: {{details?.department}} </h5>
+    </div>
+
+    <div class="w-50">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        DATE: {{details.date | date: "mediumDate"}}
+                    </th>
+                    <th class="text-center">
+                        AMOUNT
+                    </th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td>Basic Salary</td>
+                    <td class="text-end">{{details.basicSalary}}</td>
+                </tr>
+                <tr>
+                    <td>Utility Allowance</td>
+                    <td class="text-end">{{details.utilityAllowance}}</td>
+                </tr>
+                <tr>
+                    <td>Other Allowance</td>
+                    <td class="text-end">{{details.otherAllowance}}</td>
+                </tr>
+                <tr *ngIf="details?.paymentCategory">
+                    <td>{{details?.paymentCategory}}</td>
+                    <td class="text-end">{{details.adtionalAmount}}</td>
+                </tr>
+                <tr *ngIf="details?.deductions">
+                    <td>Deduction</td>
+                    <td class="text-end text-danger">({{details.deductions}})</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <th class="text-end">{{details.total}}</th>
+                </tr>
+                
+            </tbody>
+        </table>
+    
+    </div>
+
+</section>

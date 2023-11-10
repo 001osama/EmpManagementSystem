@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "../src/constants/variables.css";
+
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+a{    
+    text-decoration: none;
+}
+
+a:hover{    
+    cursor: pointer;
+}
+
+a.primary-link{
+    color: var(--theme-text-heading);
+}
+a.primary-link:hover{
+    color: var(--theme-text-focus);
+}
+
+table thead{
+    background-color: var(--theme-bg-gray);
+    color: var(--theme-text-heading);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.primary-btn{
+    background-color: var(--theme-bg-gray);
+    color: var(--theme-text-heading);
+}
+
+.primary-btn:hover,
+.primary-btn:focus{
+    color: var(--theme-text-focus);
+    background-color: var(--theme-bg-gray);
+    box-shadow: 0 0 6px var(--theme-text-focus);
+}
+
+.bg-dark{
+    background-color: var(--theme-bg-dark);
+}
+
+.bg-gray{
+    background-color: var(--theme-bg-gray);
+}
+
+.bg-light{
+    background-color: var(--theme-bg-light);
+}
+
+.text-focus{
+    color: var(--theme-text-focus);
+}
+
+.text-heading{
+    color: var(--theme-text-heading);
+}

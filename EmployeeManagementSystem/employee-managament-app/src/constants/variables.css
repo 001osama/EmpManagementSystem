@@ -1,0 +1,34 @@
+/* :root{
+    --theme-bg-dark: #45A29E;
+    --theme-bg-gray: #1F2833;
+    --theme-bg-light: #C5C6C7;
+    --theme-text-focus: #66FCF1;
+    --theme-text-heading: #45A29E;
+
+} */
+
+
+:root{
+    --theme-bg-dark: #007CC7;
+    --theme-bg-gray: #12232E;
+    --theme-bg-light: #C5C6C7;
+    --theme-text-focus: #EEFBFB;
+    --theme-text-heading: #979797;
+
+}
+
+/* 
+from internet
+Dark Blue: #12232E
+
+Lighter Blue: #007CC7
+
+Lightest Blue: #4DA8DA
+
+Shadow of Dark Blue: #203647
+
+Shadow of Light Blue: #EEFBFB
+*/
+
+
+

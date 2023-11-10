@@ -1,0 +1,115 @@
+<section>
+
+    <h3 class="my-3 d-flex justify-content-between">
+        <strong>Leaves Details</strong>
+    </h3>
+
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th>S. No.</th>
+                <th>Leave Type</th>
+                <th>Allowed per Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of leaveCategory; let i = index">
+                <td>{{i + 1}}</td>
+                <td>{{item?.leaveCategory}}</td>
+                <td>{{item?.allowedLeaves}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="search-box my-3 p-3">
+        <form [formGroup]="searchForm" (submit)="submit()">
+            <div class="d-flex justify-content-start">
+                <div class="form-group">
+                    <select class="form-select" formControlName="employeeId">
+                        <option [value]="0">Select Employee</option>
+                        <option *ngFor="let emp of employees" [value]="emp.employeeId">{{emp?.firstName}} {{emp?.lastName}} - {{emp?.department}}</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary ms-3 px-3">Search</button>
+            </div>
+        </form>
+
+        <div class="my-3 p-3 details" *ngIf="details">
+
+            <div class="container">
+                <div class="row my-3">
+                    <div class="col-2">Employee Details</div>
+                    <div class="col-6">
+                        <strong>
+                            {{details?.firstName}} {{details?.lastName}} - 
+                            {{details?.department}} - 
+                            {{details?.employeeCategory}}
+                        </strong> 
+                    </div>
+                    <div class="col-3">Total Leaves</div>
+                    <div class="col-1">
+                        <strong>
+                            {{details?.totalLeaves}}
+                        </strong>
+                    </div>
+                </div>
+                <!-- <div class="row my-3">
+                    <div class="col-3">Total Leaves</div>
+                    <div class="col-9">
+                        <strong>
+                            {{details?.totalLeaves}}
+                        </strong>
+                    </div>
+                </div> -->
+            </div>
+
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>Leave Type</th>
+                        <th>Leaves Utilized</th>
+                        <th>Allowed per Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of details?.employeeLeavesByCategory">
+                        <td>{{item?.leaveCategory}}</td>
+                        <td>{{item?.totalLeaves}}</td>
+                        <td>{{item?.allowedLeaves}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Category</th>
+                        <th>Reason</th>
+                        <th>Leave Days</th>
+                        <th>Date Start</th>
+                        <th>Date End</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of details?.employeeLeavesDetails; let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{item?.leaveCategory}}</td>
+                        <td>{{item?.reason}}</td>
+                        <td>{{item?.noOfDays}}</td>
+                        <td>{{item?.dateFrom | date: "mediumDate"}}</td>
+                        <td>{{item?.dateTo | date: "mediumDate"}}</td>
+                    </tr>
+                    <tr *ngIf="!details?.employeeLeavesDetails?.length">
+                        <td colspan="6" class="text-center">
+                            No Record(s)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,108 @@
+<section>
+
+    <h3 class="my-3">
+        <strong>Dashboard </strong>
+    </h3>
+
+    <div class="continer">
+        
+        <div class="row">
+
+            <div class="col-12 col-lg-6 mb-4">
+
+                <div class="card text-center">
+                    <div class="card-header bg-primary text-light fw-bold">
+                        Employees
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-responsive">
+                            <tbody>
+                                <tr *ngFor="let emp of employeeList">
+                                    <td>{{emp.enrollmentNumber}}</td>
+                                    <td>{{emp.firstName}} {{emp.lastName}}</td>
+                                    <td>{{emp.department}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer">
+                        <a class="text-link" [routerLink]="['/employee']">click here</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+
+                <div  class="card text-center">
+                    <div class="card-header bg-primary text-light fw-bold">
+                        Projects
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-responsive">
+                            <tbody>
+                                <tr *ngFor="let project of projectList">
+                                    <td>{{project.projectName}}</td>
+                                    <td>{{project.projectStatus}}</td>
+                                    <td>{{project.projectStartDate | date: "mediumDate"}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer">
+                        <a class="text-link" [routerLink]="['/projects']">click here</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+
+                <div  class="card text-center">
+                    <div class="card-header bg-primary text-light fw-bold">
+                        Payroll
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-responsive">
+                            <tbody>
+                                <tr *ngFor="let payroll of payrollList">
+                                    <td>{{payroll.firstName}}</td>
+                                    <td>{{payroll.department}}</td>
+                                    <td>{{payroll.date | date : "mediumDate"}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer">
+                        <a class="text-link" [routerLink]="['/payroll']">click here</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+
+                <div  class="card text-center">
+                    <div class="card-header bg-primary text-light fw-bold">
+                        Employee Leaves
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-responsive">
+                            <tbody>
+                                <tr *ngFor="let cat of leaveCategory">
+                                    <td>{{cat.leaveCategory}}</td>
+                                    <td>{{cat.allowedLeaves}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer">
+                        <a class="text-link" [routerLink]="['/leaves']">click here</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+<div class="sidebar">
+
+    <div class="logo p-3 fs-18">
+        <strong>LOGO</strong>
+    </div>
+
+    <a *ngFor="let item of sidebarMenu" [routerLink]="[item.url]" class="p-3 fs-16 fw-500"
+        [ngClass]="{'active': active(item.module)}">
+        {{item.title}}
+    </a>
+
+</div>

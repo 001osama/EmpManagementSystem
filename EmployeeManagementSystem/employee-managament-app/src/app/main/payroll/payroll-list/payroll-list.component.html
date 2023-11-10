@@ -1,0 +1,61 @@
+<section>
+    <h3 class="my-3 d-flex justify-content-between">
+        <strong>Payroll</strong>
+    </h3>
+
+    <div class="search-box my-3 p-3">
+        <form [formGroup]="searchForm" (submit)="getPayrollList()">
+            <div class="d-flex justify-content-start">
+                <div class="form-group">
+                    <select class="form-select" formControlName="employeeId">
+                        <option [value]="0">Select Employee</option>
+                        <option *ngFor="let emp of employees" [value]="emp.employeeId">{{emp?.firstName}} {{emp?.lastName}} - {{emp?.department}}</option>
+                    </select>
+                </div>
+                <div class="form-group ms-3">
+                    <select class="form-select" formControlName="month">
+                        <option [value]="0">Select Month</option>
+                        <option *ngFor="let mon of months" [value]="mon.id">{{mon?.name}}</option>
+                    </select>
+                </div>
+                <div class="form-group ms-3">
+                    <select class="form-select" formControlName="year">
+                        <option [value]="0">Select Year</option>
+                        <option *ngFor="let year of years" [value]="year">{{year}}</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary ms-3 px-3">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <table class="table table-responsive" *ngIf="list?.length; else template">
+        <thead>
+            <tr>
+                <th>Employee</th>
+                <th>Department</th>
+                <th>Month - Year</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of list">
+                <td>{{item?.firstName}} {{item?.lastName}}</td>
+                <td>{{item?.department}}</td>
+                <td>{{item?.date | date: 'shortDate'}}</td>
+                <td>
+                    <button class="btn btn-sm btn-outline-dark" [routerLink]="['/payroll/details',item?.payrollId]">
+                        Details
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ng-template #template>
+        <p class="text-center">
+            There is no record(s)
+        </p>
+    </ng-template>
+
+</section>

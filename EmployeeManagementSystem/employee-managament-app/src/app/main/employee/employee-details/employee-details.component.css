@@ -1,0 +1,5 @@
+.employeeDetail{
+    background-color: var(--theme-bg-gray);
+    border-radius: 12px;
+    color: var(--theme-text-heading);
+}

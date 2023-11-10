@@ -1,0 +1,35 @@
+<section>
+
+    <h3 class="my-3 d-flex justify-content-between">
+        <strong>Projects </strong>
+        <button class="btn btn-primary" [routerLink]="['/projects/add']">
+            Add Projects
+        </button>
+    </h3>
+
+    <div class="continer">
+
+        <div class="row">
+            <div *ngFor="let proj of projectList" class="col-12 col-lg-6 mb-4">
+
+                <div  class="card text-center">
+                    <div class="card-header text-light" [ngClass]="{'bg-primary': proj.projectStatusId == 1, 'bg-success': proj.projectStatusId == 2, 'bg-dark': proj.projectStatusId == 3, 'bg-danger': proj.projectStatusId == 4 }">
+                        {{proj.projectStatus}}
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{proj.projectName}}</h5>
+                        <p class="card-text">{{proj.description}}</p>
+                        <a [routerLink]="['/projects/detail', proj.projectId]" class="btn" [ngClass]="{'btn-primary': proj.projectStatusId == 1, 'btn-success': proj.projectStatusId == 2, 'btn-dark': proj.projectStatusId == 3, 'btn-danger': proj.projectStatusId == 4 }">Details</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Start Date: {{proj.projectStartDate | date}}
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>      
+
+</section>

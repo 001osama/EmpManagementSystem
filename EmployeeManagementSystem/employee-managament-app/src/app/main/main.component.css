@@ -1,0 +1,11 @@
+.side-bar{
+    display: block;
+    width: 300px;
+    min-height: 100vh;
+}
+
+.content{
+    display: block;
+    width: 100%;
+    /* background-color: var(--theme-bg-light); */
+}

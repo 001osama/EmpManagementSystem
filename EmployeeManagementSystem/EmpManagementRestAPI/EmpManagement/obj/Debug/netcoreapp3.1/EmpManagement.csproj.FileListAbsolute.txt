@@ -1,0 +1,72 @@
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.exe
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.deps.json
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.runtimeconfig.json
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.runtimeconfig.dev.json
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.pdb
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.csproj.AssemblyReference.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.AssemblyInfoInputs.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.AssemblyInfo.cs
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.csproj.CoreCompileInputs.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\EmpManagement.StaticWebAssets.Manifest.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\EmpManagement.StaticWebAssets.xml
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\scopedcss\bundle\EmpManagement.styles.css
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.RazorTargetAssemblyInfo.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.pdb
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.genruntimeconfig.cache
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.csproj.CopyComplete
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ashfaq Ahmed\source\repos\EmpManagement\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.StaticWebAssets.xml
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.exe
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.deps.json
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.runtimeconfig.json
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.runtimeconfig.dev.json
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\EmpManagement.pdb
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.csproj.AssemblyReference.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.AssemblyInfoInputs.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.AssemblyInfo.cs
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.csproj.CoreCompileInputs.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\EmpManagement.StaticWebAssets.Manifest.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\EmpManagement.StaticWebAssets.Pack.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.EmpManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.EmpManagement.props
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.EmpManagement.props
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.EmpManagement.props
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.RazorTargetAssemblyInfo.cache
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.csproj.CopyComplete
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.dll
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.pdb
+D:\Projects\EmpManagementRestAPI\EmpManagement\obj\Debug\netcoreapp3.1\EmpManagement.genruntimeconfig.cache
